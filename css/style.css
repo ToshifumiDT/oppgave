@@ -1,0 +1,122 @@
+/* CUSTOM PROPERTIES */
+:root {
+    /* FONT SIZE */
+    --fs-800: 3.5rem;
+    --fs-700: 2rem;
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+
+    /* VANLIG FONT ALLE ELEMENTER */
+    --ff-regular: ;
+    --fw-bold: 700;
+    --fw-regular: 400;
+
+    /* SPESIAL FONT OVERSKRIFT */
+    --ff-special: ;
+    --fw-special: 400;
+
+    /* PRIMÆR FARGER */
+    --clr-heading: hsl(0, 0%, 14%);
+    --clr-accent-pink: hsl(343, 57%, 62%);
+
+    /* NØYTRAL FARGER */
+    --clr-bg-light: hsl(261, 100%, 97%);
+    --clr-txt: hsl(252, 45%, 2%);
+    --clr-txt-light: var(--clr-bg-light);
+    --clr-txt-gray: hsl(258, 10%, 75%);
+
+    /* BORDER RADIUS */
+    --brdr-rad-light: .5rem;
+    --brdr-rad-normal: 1rem;
+    --brdr-rad-heavy: 2rem;
+}
+
+/* CSS RESET */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+html {
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.1;
+}
+
+body {
+    font-family: var(--ff-regular);
+    background-color: var(--clr-bg-light);
+}
+
+main {
+    min-height: 100vh;
+}
+
+
+/* HEADER SEKSJON */
+.primary-header {
+    background-color: var(--clr-heading);
+}
+
+.header-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    border-bottom: 1px solid hsla(260, 100%, 97%, 0.415);
+}
+
+.logo-link {
+    color: var(--clr-txt-light);
+    font-size: var(--fs-700);
+    font-family: var(--ff-special);
+    text-decoration: none;
+}
+
+.hdr-nav-ul {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+.hdr-nav-ul a {
+    color: var(--clr-txt-light);
+    font-size: var(--fs-500);
+    text-decoration: none;
+    letter-spacing: .1rem;
+}
+
+.hdr-nav-ul a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.primary-footer {
+    display: flex;
+    min-height: 10rem;
+    border-top: 1px solid hsla(260, 100%, 97%, 0.415);
+    background-color: var(--clr-txt);
+}
+
+.ftr-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-block: 3rem;
+    color: var(--clr-txt-light);
+}
