@@ -1,0 +1,218 @@
+*{
+    padding: 0%;
+    margin:0%
+}
+
+/*backgroung*/
+
+header {
+    background-image: url('../images/violin02.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background-color: rgba(110, 97, 78, 0.658);
+    padding: 10px;
+    margin: 40px;
+    border-radius: 30px;
+}
+
+body{
+    background-color: rgba(255, 248, 220, 0.452);
+}
+
+
+/*footer*/
+footer{
+    background-color: rgba(110, 97, 78, 0.658);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+   
+}
+/*button*/
+.button{
+    box-shadow: 6px 6px 5px #000000a6;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(39, 39, 39);
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.button:active{
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+/*for desktop*/
+@media (min-width: 1001px) {
+
+h1{
+    text-align: center;
+    font-size: 66px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -2px -2px 0 #000000,  
+    2px -2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px 2px 0 #000000; 
+}
+
+/*header*/
+header{
+    height: 200px;
+}
+
+/*main*/
+main{
+    margin: 30px;
+    padding: 30px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: auto;
+    margin: 30px 300px 90px 300px;
+    padding: 30px 80px;
+}
+
+.container img{
+    width: 60%;
+}
+
+h2{
+    padding: 10px;
+}
+
+.text1{
+    padding: 30px;
+}
+
+.text2{
+    padding: 30px;
+}
+
+.text3{
+    padding: 30px;
+}
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+
+h1{
+    text-align: center;
+    font-size: 66px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -2px -2px 0 #000000,  
+    2px -2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px 2px 0 #000000; 
+}
+    
+/*header*/
+header{
+    height: 200px;
+}
+    
+/*main*/
+main{
+    margin: 30px;
+    padding: 30px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: auto;
+    margin: 30px 100px 90px 100px;
+    padding: 30px 80px;
+}
+    
+.container img{
+    width: 60%;
+}
+    
+h2{
+    padding: 10px;
+}
+    
+.text1{
+    padding: 30px;
+}
+    
+.text2{
+    padding: 30px;
+}
+    
+.text3{
+    padding: 30px;
+}
+}
+
+/*for mobile*/
+@media (max-width: 699px) {
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -2px -2px 0 #000000,  
+    2px -2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px 2px 0 #000000; 
+}
+    
+/*header*/
+header{
+    height: 150px;
+}
+
+/*main*/
+main{
+    margin: 30px;
+    padding: 30px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: auto;
+    margin: 20px 10px 90px 10px;
+    padding: 30px;
+}
+
+.container img{
+    width: 90%;
+}
+
+h2{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.text1{
+    padding: 5px;
+}
+
+.text2{
+    padding: 5px;
+}
+
+.text3{
+    padding: 5px;
+}
+
+}
