@@ -1,0 +1,67 @@
+.fiolinpic {
+    background-image: url(../images/fiolin.jpg);
+    height: 60vh;
+    background-size: cover; /* This will make the background image cover the entire container */
+    background-repeat: no-repeat; /* This will prevent the background image from repeating */
+    background-position: center; /* This will center the background image */
+    display: flex;
+    align-items: center;
+}
+
+.introbox {
+    padding: 30px;
+    background-color:rgba(110, 97, 78, 0.932); ;
+    color: var(--clr-txt-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: left;
+    border-radius: var(--brdr-rad-normal);
+    overflow: auto; 
+    margin-left:11vw;
+    max-width: 24vw;
+}
+
+
+.maininfo {
+    height: 100vh;
+    background-color: rebeccapurple;
+
+}
+
+.infoflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.maininfo {
+    padding: 30px;
+    background-color:rgba(110, 97, 78, 0.658); ;
+    color: var(--clr-txt-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: var(--brdr-rad-normal);
+    overflow: auto; 
+    margin-left:11vw;
+    width: 800px;
+    height: 550px;
+    margin-top: 100px;
+}
+
+.fiolincloseup {
+    margin-top: 100px;
+    height: 550px;
+    margin-bottom: 100px;
+    border-radius: 5%;
+}
+
+.infotitle {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
