@@ -17,7 +17,7 @@
     --fw-special: 400;
 
     /* PRIMÆR FARGER */
-    --clr-heading: hsl(0, 0%, 14%);
+    --clr-heading: rgb(153, 82, 6);
     --clr-accent-pink: hsl(343, 57%, 62%);
 
     /* NØYTRAL FARGER */
@@ -59,6 +59,7 @@ h1, h2, h3, h4 {
 body {
     font-family: var(--ff-regular);
     background-color: var(--clr-bg-light);
+    background-color: rgba(255, 248, 220, 0.452);
 }
 
 main {
@@ -69,6 +70,7 @@ main {
 /* HEADER SEKSJON */
 .primary-header {
     background-color: var(--clr-heading);
+    background-image: url('../images/violin02.jpg');
 }
 
 .header-nav-bar {
